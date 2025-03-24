@@ -1,0 +1,84 @@
+/* Apply a modern background */
+body {
+    background: linear-gradient(135deg, #eef2f3, #8e9eab);
+    color: black;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container Styling */
+  .app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Glassmorphic Card */
+  .glassmorphic-card {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  /* Title & Icon Styling */
+  .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    color: #1976d2;
+    margin-right: 10px;
+  }
+  
+  .title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Form Elements */
+  .MuiFormControl-root,
+  .MuiTextField-root {
+    margin-bottom: 15px;
+  }
+  
+  /* Prediction Button */
+  .btn {
+    font-weight: bold !important;
+    background-color: #1976d2 !important;
+    color: white !important;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #155a9a !important;
+  }
+  
+  /* Prediction Result */
+  .result {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #2e7d32;
+  }
+  
+  /* Error Message */
+  .error {
+    margin-top: 15px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+  }
+  
